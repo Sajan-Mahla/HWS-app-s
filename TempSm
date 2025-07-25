@@ -1,0 +1,89 @@
+Info- TempSm App — A minimal SwiftUI temperature converter that instantly switches between Celsius, Fahrenheit, and Kelvin using segmented pickers. Designed with clean state-driven logic and real-time input validation for a smooth user experience.
+
+Code -
+import SwiftUI
+
+struct ContentView: View {
+    @State private var inputTemperature = ""
+    @State private var fromUnit = "Celsius"
+    @State private var toUnit = "Fahrenheit"
+    @State private var result = ""
+
+    let temperatureUnits = ["Celsius", "Fahrenheit", "Kelvin"]
+
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("Temp.sm")
+                .font(.largeTitle)
+                .bold()
+
+            TextField("Enter Temperature", text: $inputTemperature)
+                .keyboardType(.decimalPad)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+
+            Picker("From", selection: $fromUnit) {
+                ForEach(temperatureUnits, id: \.self) {
+                    Text($0)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+
+            Picker("To", selection: $toUnit) {
+                ForEach(temperatureUnits, id: \.self) {
+                    Text($0)
+                }
+            }
+            .pickerStyle(SegmentedPickerStyle())
+
+            Button("Convert") {
+                guard let inputValue = Double(inputTemperature) else {
+                    result = "Invalid Input"
+                    return
+                }
+
+                var celsiusValue: Double
+
+                if fromUnit == "Celsius" {
+                    celsiusValue = inputValue
+                } else if fromUnit == "Fahrenheit" {
+                    celsiusValue = (inputValue - 32) * 5 / 9
+                } else if fromUnit == "Kelvin" {
+                    celsiusValue = inputValue - 273.15
+                } else {
+                    result = "Invalid Unit"
+                    return
+                }
+
+                var finalValue: Double
+
+                if toUnit == "Celsius" {
+                    finalValue = celsiusValue
+                } else if toUnit == "Fahrenheit" {
+                    finalValue = (celsiusValue * 9 / 5) + 32
+                } else if toUnit == "Kelvin" {
+                    finalValue = celsiusValue + 273.15
+                } else {
+                    result = "Invalid Unit"
+                    return
+                }
+
+                result = String(format: "%.2f", finalValue)
+            }
+            .font(.title2)
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+
+            Text("Result: \(result)")
+                .font(.title3)
+                .padding()
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
