@@ -1,0 +1,67 @@
+# BetterRest 💤 | iOS SwiftUI + CoreML App
+
+This is the **BetterRest** app built as part of my **52-Apps-in-52-Weeks Challenge**.
+
+## 📱 App Overview
+BetterRest helps users calculate their **ideal bedtime** based on:
+- Desired wake-up time
+- Amount of sleep
+- Daily coffee intake
+
+It uses **CoreML** with a trained **SleepCalculator.mlmodel** to predict when you should go to bed.
+
+---
+
+## 🚀 Features
+- SwiftUI Interface (Form layout)
+- DatePicker for wake-up time
+- Stepper controls for Sleep Hours & Coffee Intake
+- **CoreML Prediction** (SleepCalculator.mlmodel)
+- Presents ideal bedtime via Alert
+- Fully responsive on iPhone 16 Pro (Simulator)
+
+---
+
+## 🧠 Tech Stack
+- **SwiftUI** (UI & State Management)
+- **CoreML** (Machine Learning Model Integration)
+- **Date & Time Calculations**
+- **Xcode 15** (Built & Tested)
+
+---
+
+## 📊 Learnings from This Project
+- How to import and use `.mlmodel` files in SwiftUI.
+- Handling Xcode’s DerivedData & Build caching issues.
+- Time calculations using `DateComponents` and `TimeInterval`.
+- Dynamically updating UI with @State properties.
+
+---
+
+## 📂 Files Structure
+BetterRest/
+├── Assets.xcassets
+├── BetterRestApp.swift
+├── ContentView.swift
+└── SleepCalculator.mlmodel
+
+
+---
+
+## 🔥 Part of My Mission:
+> "Building **52 apps in 52 weeks** towards my Apple Cupertino dream.  
+>  This is App #7.  
+>  Watch me win."
+
+---
+
+## 🎉 App #7 Done — Next Stop: **Advanced Auto-Updating Version (V2.0)**
+
+---
+
+
+
+## 💡 Credits:
+Project idea from **Hacking with Swift (Paul Hudson)** — customized and rebuilt for my personal learning streak.
+
+---
