@@ -127,6 +127,11 @@ It’s a **developer legacy** in the making. 🍏
 - Slick animation for new entries  
 - Catchy alerts for cheaters 😈
 
+### 9️⃣ DictFict — Dictory with API 
+- get defines of particular words from API  
+- The API is from OXFORD 
+- just push the word and see the magic
+
 ---
 
 ### ⏳ More coming soon...
