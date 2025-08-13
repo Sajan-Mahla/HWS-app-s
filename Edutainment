@@ -1,0 +1,127 @@
+Description:
+Multiplication Master – Fun Learning for Kids
+Turn learning into playtime! 🎯
+Multiplication Master is a simple yet engaging way for kids to practice their multiplication tables while having fun. Perfect for ages 6+ and anyone who wants to sharpen their math skills.
+Features:
+🎯 Customizable Difficulty – Choose multiplication tables from 2 to 12.
+🔢 Pick Your Challenge – 5, 10, or 20 questions per game.
+🎲 Randomized Questions – Every game is unique.
+📊 Score Tracking – See how well you did and try to beat your best score.
+🎨 Kid-Friendly Design – Simple interface for quick and easy play.
+Whether you’re a parent looking to make learning fun, a student wanting to improve, or just someone who loves a good brain challenge — Multiplication Master makes math practice exciting!
+
+
+CODE:
+import SwiftUI
+
+struct ContentView: View {
+    // Game settings
+    @State private var minTable = 2
+    @State private var maxTable = 12
+    @State private var totalQuestion = 5
+    
+    // Game data
+    @State private var questions: [(Int, Int)] = []
+    @State private var currentIndex = 0
+    @State private var answer = ""
+    @State private var score = 0
+    @State private var gameStage = "setup" // "setup", "question", "result"
+    
+    var body: some View {
+        VStack {
+            if gameStage == "setup" {
+                Text("Choose settings")
+                    .font(.title)
+                
+                Stepper("From table: \(minTable)", value: $minTable, in: 2...12)
+                Stepper("To table: \(maxTable)", value: $maxTable, in: minTable...12)
+                
+                Picker("Number of Questions", selection: $totalQuestion) {
+                    Text("5").tag(5)
+                    Text("10").tag(10)
+                    Text("20").tag(20)
+                }
+                .pickerStyle(.segmented)
+                .padding()
+                
+                Button("Start Game") {
+                    generateQuestions()
+                    currentIndex = 0
+                    score = 0
+                    answer = ""
+                    gameStage = "question"
+                }
+                .padding()
+                .background(.blue)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+                
+            } else if gameStage == "question" {
+                let q = questions[currentIndex]
+                
+                Text("Question \(currentIndex + 1) of \(totalQuestion)")
+                Text("What is \(q.0) × \(q.1)?")
+                    .font(.title)
+                
+                TextField("Your answer", text: $answer)
+                    .keyboardType(.numberPad)
+                    .textFieldStyle(.roundedBorder)
+                    .padding()
+                
+                Button("Submit") {
+                    checkAnswer()
+                }
+                .padding()
+                .background(.green)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+                
+            } else if gameStage == "result" {
+                Text("Game Over!")
+                    .font(.largeTitle)
+                Text("Your score: \(score) / \(totalQuestion)")
+                    .font(.title2)
+                
+                Button("Play Again") {
+                    gameStage = "setup"
+                }
+                .padding()
+                .background(.orange)
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+            }
+        }
+        .padding()
+    }
+    
+    // MARK: - Functions
+    
+    func generateQuestions() {
+        questions = []
+        for _ in 0..<totalQuestion {
+            let first = Int.random(in: minTable...maxTable)
+            let second = Int.random(in: 1...12)
+            questions.append((first, second))
+        }
+    }
+    
+    func checkAnswer() {
+        if let userAnswer = Int(answer) {
+            let correctAnswer = questions[currentIndex].0 * questions[currentIndex].1
+            if userAnswer == correctAnswer {
+                score += 1
+            }
+        }
+        
+        answer = ""
+        currentIndex += 1
+        
+        if currentIndex >= totalQuestion {
+            gameStage = "result"
+        }
+    }
+}
+
+#Preview {
+    ContentView()
+}
