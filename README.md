@@ -21,21 +21,6 @@ From foundational builds to future App Store-ready apps, this repo documents the
 - **Xcode** — Primary development environment  
 - **Git + GitHub** — For version control and documenting progress  
 
----
-
-## 📂 Apps in This Repository
-
-### 1️⃣ TempMate (TempSm)
-A SwiftUI temperature converter app that seamlessly converts Celsius, Fahrenheit, and Kelvin with real-time UI updates.  
-Features:
-- Segmented pickers  
-- State-driven logic  
-- Input validation  
-- Smooth, reactive UI
-
-### 2️⃣ WeSplit
-A bill-splitting app using SwiftUI fundamentals — input, binding, and basic logic flow.  
-Perfect intro to understanding SwiftUI’s structure and views.
 
 ---
 
@@ -132,8 +117,11 @@ It’s a **developer legacy** in the making. 🍏
 - The API is from OXFORD 
 - just push the word and see the magic
 
+### 1️⃣0️⃣  Edutainment — Education app with a bit of entertainment for competition  
+- from table 2 to 12  
+- number of questions your choice 5,10,20 
+- your kid kid will love it
 ---
-
 ### ⏳ More coming soon...
 
 Every app here is one line of code closer to the dream.  
