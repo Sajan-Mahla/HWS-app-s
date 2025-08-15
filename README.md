@@ -121,6 +121,13 @@ It’s a **developer legacy** in the making. 🍏
 - from table 2 to 12  
 - number of questions your choice 5,10,20 
 - your kid kid will love it
+
+  
+### 1️⃣1️⃣  iExpense — expense tracker for your both personal and professional/business expeses
+- easy to use 
+- minimal UI
+- support both light and dark mode
+
 ---
 ### ⏳ More coming soon...
 
