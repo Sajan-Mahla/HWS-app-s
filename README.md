@@ -128,6 +128,10 @@ It’s a **developer legacy** in the making. 🍏
 - minimal UI
 - support both light and dark mode
 
+### 1️⃣2️⃣  ToDo — Com'on bro i had made 12 apps so manage my tasks upto them. So todo is must
+- very easy to use  
+- can check/Uncheck tasks as your convince 
+- support both light and dark mode
 ---
 ### ⏳ More coming soon...
 
