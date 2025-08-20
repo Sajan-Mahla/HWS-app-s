@@ -135,7 +135,7 @@ It’s a **developer legacy** in the making. 🍏
 
   
 ### 1️⃣3️⃣  MoonShot — can i call all moon missions a MOONSHOT
-- very details of appolo missions 
+- very details of apollo missions 
 - their dates, crewMember, batches.
 - best for kids to learn something new
 
