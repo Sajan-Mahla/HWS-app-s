@@ -24,19 +24,6 @@ From foundational builds to future App Store-ready apps, this repo documents the
 
 ---
 
-## 📅 Roadmap
-
-- ✅ Add `CalcMate` (multi-utility calculator) — **Next Sunday Build**  
-- 🔜 Upgrade `QuoteMate` to v2.0:
-  - Apple ID login  
-  - Categorized quote sections  
-- 🔮 Build real-world apps with:
-  - REST APIs  
-  - Firestore backend  
-  - Swift Package Manager  
-  - UIKit integrations  
-
----
 
 ## 🏆 Final Goal
 
@@ -134,10 +121,15 @@ It’s a **developer legacy** in the making. 🍏
 - support both light and dark mode
 
   
-### 1️⃣3️⃣  MoonShot — can i call all moon missions a MOONSHOT
+### 1️⃣3️⃣  MoonShot — can i call all moon missions a MOONSHOT?
 - very details of apollo missions 
 - their dates, crewMember, batches.
 - best for kids to learn something new
+
+### 1️⃣4️⃣  BookWorm— If you are reader, you are my friend without intro...
+- add your favourote books, their authors, their rating etc 
+- rating with emojis.
+- minimal and sexy UI
 
 ---
 ### ⏳ More coming soon...
