@@ -108,8 +108,7 @@ It’s a **developer legacy** in the making. 🍏
 - from table 2 to 12  
 - number of questions your choice 5,10,20 
 - your kid kid will love it
-
-  
+ 
 ### 1️⃣1️⃣  iExpense — expense tracker for your both personal and professional/business expeses
 - easy to use 
 - minimal UI
@@ -119,8 +118,7 @@ It’s a **developer legacy** in the making. 🍏
 - very easy to use  
 - can check/Uncheck tasks as your convince 
 - support both light and dark mode
-
-  
+ 
 ### 1️⃣3️⃣  MoonShot — can i call all moon missions a MOONSHOT?
 - very details of apollo missions 
 - their dates, crewMember, batches.
@@ -129,6 +127,11 @@ It’s a **developer legacy** in the making. 🍏
 ### 1️⃣4️⃣  BookWorm— If you are reader, you are my friend without intro...
 - add your favourote books, their authors, their rating etc 
 - rating with emojis.
+- minimal and sexy UI
+
+### 1️⃣5️⃣ Weather 2.0 — your more better looking weather app
+- fetch data from currentweather 
+- used CoreLocationUI frameworks
 - minimal and sexy UI
 
 ---
