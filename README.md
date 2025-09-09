@@ -134,6 +134,11 @@ It’s a **developer legacy** in the making. 🍏
 - used CoreLocationUI frameworks
 - minimal and sexy UI
 
+  ### 1️⃣6️⃣ SwiftData app — project/app made with import SwiftData
+- filtering and sorting using @Query
+- dedcated buttons for each works
+- sort on the basis of Name,City,JoinDate
+
 ---
 ### ⏳ More coming soon...
 
