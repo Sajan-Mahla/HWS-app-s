@@ -139,6 +139,10 @@ It’s a **developer legacy** in the making. 🍏
 - dedcated buttons for each works
 - sort on the basis of Name,City,JoinDate
 
+### 1️⃣7️⃣ InstaFilter — We slay when it comes to Filters
+- Used @CoreImages, @StoreKit, @CIfilters.CiFiltersInBuilts Frameworks
+- Added review/feeedback page for app store review
+- Select the image from your gallery then filter it using my variuos filters
 ---
 ### ⏳ More coming soon...
 
