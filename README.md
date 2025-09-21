@@ -143,6 +143,11 @@ It’s a **developer legacy** in the making. 🍏
 - Used @CoreImages, @StoreKit, @CIfilters.CiFiltersInBuilts Frameworks
 - Added review/feeedback page for app store review
 - Select the image from your gallery then filter it using my variuos filters
+
+### 1️⃣8️⃣ DiceRoller- You Role the dice and REST will be the history
+- Used Animations.
+- Added DarkMode for better UI.(YOU CAN SHIFT IT)
+- 2 Dices, 1 Fortune
 ---
 ### ⏳ More coming soon...
 
