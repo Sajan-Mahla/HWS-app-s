@@ -148,6 +148,11 @@ It’s a **developer legacy** in the making. 🍏
 - Used Animations.
 - Added DarkMode for better UI.(YOU CAN SHIFT IT)
 - 2 Dices, 1 Fortune
+
+### 1️⃣9️⃣ BucketList- Your mark the map i'll mark MAPKIT
+- place the pin and boom it'll add to your bucket list
+- precisely fetched to your location
+- so pack the bag.
 ---
 ### ⏳ More coming soon...
 
