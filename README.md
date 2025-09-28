@@ -153,6 +153,12 @@ It’s a **developer legacy** in the making. 🍏
 - place the pin and boom it'll add to your bucket list
 - precisely fetched to your location
 - so pack the bag.
+
+### 2️⃣0️⃣ 🔤 MagicPress - every keypress is a show!
+- see your typing come alive with smooth animations
+-toggle ASCII codes because why not learn while you type
+-beautiful key history that scrolls like butter
+
 ---
 ### ⏳ More coming soon...
 
