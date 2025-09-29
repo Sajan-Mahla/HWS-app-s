@@ -154,10 +154,15 @@ It’s a **developer legacy** in the making. 🍏
 - precisely fetched to your location
 - so pack the bag.
 
-### 2️⃣0️⃣ 🔤 MagicPress - every keypress is a show!
+### 2️⃣0️⃣ MagicPress - every keypress is a show!
 - see your typing come alive with smooth animations
--toggle ASCII codes because why not learn while you type
--beautiful key history that scrolls like butter
+- toggle ASCII codes because why not learn while you type
+- beautiful key history that scrolls like butter
+
+### 2️⃣1️⃣ Accessibilty Sandbox - You spoke then HEARD 
+- gained best knowlegede
+- Learn about most types of accessibilty
+- Used Best practices
 
 ---
 ### ⏳ More coming soon...
