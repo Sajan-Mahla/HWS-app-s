@@ -159,11 +159,15 @@ It’s a **developer legacy** in the making. 🍏
 - toggle ASCII codes because why not learn while you type
 - beautiful key history that scrolls like butter
 
-### 2️⃣1️⃣ Accessibilty Sandbox - You spoke then HEARD 
+### 2️⃣1️⃣ Accessibilty Sandbox - You spoke then HEAR
 - gained best knowlegede
 - Learn about most types of accessibilty
 - Used Best practices
 
+### 2️⃣2️⃣ Hot Prospects - Conferences AHAA
+- QR code for Very much Everything.
+- Context menu
+- Best UI Practices
 ---
 ### ⏳ More coming soon...
 
