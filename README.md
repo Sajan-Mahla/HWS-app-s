@@ -164,10 +164,15 @@ It’s a **developer legacy** in the making. 🍏
 - Learn about most types of accessibilty
 - Used Best practices
 
-### 2️⃣2️⃣ Hot Prospects - Conferences AHAA
-- QR code for Very much Everything.
+### 2️⃣2️⃣ Hot Prospects - Conferences AHAA.
+- QR code for Very much Everything
 - Context menu
 - Best UI Practices
+
+### 2️⃣3️⃣ SublteShift - Gradientttttttttt
+- change gradient by tapping the screen
+- long press it to save it
+- history button as it is mandate
 ---
 ### ⏳ More coming soon...
 
