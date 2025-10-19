@@ -29,7 +29,7 @@ From foundational builds to future App Store-ready apps, this repo documents the
 
 All these apps are stepping stones toward one target:
 
-> **An Apple offer letter by June 16, 2026 — My Mom’s Birthday.**
+> **An Apple offer letter **
 
 ---
 
@@ -173,6 +173,11 @@ It’s a **developer legacy** in the making. 🍏
 - change gradient by tapping the screen
 - long press it to save it
 - history button as it is mandate
+
+### 2️⃣4️⃣ MindMapr - You got the MIND, Map is upto ME.
+- make mind map in your own iOS device
+- Minimal and best colors
+- make it as long as you want
 ---
 ### ⏳ More coming soon...
 
